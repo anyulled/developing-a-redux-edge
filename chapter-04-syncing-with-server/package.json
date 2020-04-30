@@ -6,7 +6,9 @@
     "lint": "eslint 'source/**'",
     "test": "tape --require babel-register source/**/*.test.js",
     "prestart": "webpack",
-    "start": "node index"
+    "start": "node index",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Artur Muller <me@arturmuller.com> (http://arturmuller.com)",
   "license": "ISC",
@@ -36,6 +38,8 @@
     "redux": "^3.0.0",
     "redux-thunk": "^2.1.0",
     "uuid": "^2.0.2",
-    "webpack": "^1.12.2"
-  }
+    "webpack": "^1.12.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
