@@ -13,7 +13,7 @@
   "devDependencies": {
     "babel-eslint": "^6.0.0",
     "babel-register": "^6.9.0",
-    "eslint": "^2.12.0",
+    "eslint": "^7.10.0",
     "eslint-plugin-react": "^4.3.0",
     "tape": "^4.5.1"
   },
